@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Overpass:300,600,800&display=swap" rel="stylesheet"> 
+    <!-- ANIMATE ON SCROLL CSS LIB -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- FONT AWESOME -->
+    <!-- <script src="https://kit.fontawesome.com/490d4ebda7.js" crossorigin="anonymous"></script> -->
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Animate on Scroll | Show N' Tell</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>Animate on Scroll</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <section class="fade">
+                <div class="fadeUp box posLeft" data-aos="fade-up">
+                    <h3>Fade Up</h3>
+                </div>
+                <div class="fadeDown box posRight" data-aos="fade-down">
+                    <h3>Fade Down</h3>
+                </div>
+                <div class="fadeLeft box posLeft" data-aos="fade-left">
+                    <h3>Fade Left</h3>
+                </div>
+                <div class="fadeRight box posRight" data-aos="fade-right">
+                    <h3>Fade Right</h3>
+                </div>
+            </section>
+
+            <section class="flip">
+                <div class="flipUp box posLeft" data-aos="flip-up">
+                    <h3>Flip Up</h3>
+                </div>
+                <div class="flipDown box posRight" data-aos="flip-down">
+                    <h3>Flip Down</h3>
+                </div>
+                <div class="flipLeft box posLeft" data-aos="flip-left">
+                    <h3>Flip Left</h3>
+                </div>
+                <div class="flipRight box posRight" data-aos="flip-right">
+                    <h3>Flip Right</h3>
+                </div>
+            </section>
+
+            <section class="slide">
+                <div class="slideUp box posLeft" data-aos="slide-up">
+                    <h3>Slide Up</h3>
+                </div>
+                <div class="slideDown box posRight" data-aos="slide-down">
+                    <h3>Slide Down</h3>
+                </div>
+            </section>
+
+            <section class="zoom">
+                <div class="zoomIn box posLeft" data-aos="zoom-in">
+                    <h3>Zoom In</h3>
+                </div>
+                <div class="zoomOut box posRight" data-aos="zoom-out">
+                    <h3>Zoom Out</h3>
+                </div>
+            </section>
+
+        </div>
+        <section class="custimization">
+            <div class="custimizationTitle">
+                <div class="wrapper">
+                    <h2>Attributes</h2>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="offset box posLeft" data-aos="fade-left" data-aos-offset="500">
+                    <h3>Offset</h3>
+                </div>
+                <div class="delay box posRight" data-aos="flip-right" data-aos-delay="1000">
+                    <h3>Delay</h3>
+                </div>
+                <div class="anchor box posLeft" data-aos="zoom-in-left" data-aos-anchor-placement="center-center">
+                    <h3>Anchor</h3>
+                </div>
+                <div class="duration box posRight" data-aos="slide-right" data-aos-duration="2000">
+                    <h3>Duration</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- ANIMATE ON SCROLL JS LIB -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+</html>
